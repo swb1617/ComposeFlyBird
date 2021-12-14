@@ -86,7 +86,7 @@ fun PreviewBird() {
 }
 
 const val PendingDegree = 0f
-const val LiftingDegree = -10f
+const val LiftingDegree = -5f
 const val FallingDegree = -LiftingDegree
 const val DyingDegree = FallingDegree + 10f
 const val DeadDegree = DyingDegree - 10f

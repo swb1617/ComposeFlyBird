@@ -35,7 +35,7 @@ val LowBirdHeightOffset = 272.dp
 // val BirdSizeHeight = 50.dp // 48.dp // Control bird's size
 
 // Bird height calculated from pipe distance.
-const val BirdPipeDistanceFraction = 0.30f
+const val BirdPipeDistanceFraction = 0.27f
 var BirdSizeHeight = PipeDistance * BirdPipeDistanceFraction
 var BirdSizeWidth = BirdSizeHeight * 1.44f
 
@@ -45,7 +45,7 @@ val BirdHitGroundThreshold = BirdSizeHeight / 2 // BirdSizeHeight / 3
 
 const val BirdFallToGroundTimes = 20
 var BirdFallVelocity = 8.dp
-var BirdQuickFallVelocity = BirdFallVelocity * 4
+var BirdQuickFallVelocity = BirdFallVelocity * 5
 
-val BirdLiftVelocity = BirdFallVelocity * 8
+val BirdLiftVelocity = BirdFallVelocity * 10
 val BirdQuickLiftVelocity = BirdLiftVelocity * 1.5f

@@ -62,6 +62,7 @@ class MainActivity : ComponentActivity() {
                             if (gameViewModel.viewState.value.gameStatus != GameStatus.Waiting) {
                                 gameViewModel.dispatch(GameAction.AutoTick)
                             }
+
                         }
                     }
 
@@ -111,7 +112,7 @@ class MainActivity : ComponentActivity() {
             customizeSplashScreen()
         }
 
-        // Log.d("Splash", "onCreate() splashScreen:${getSplashScreen()}}")
+
     }
 }
 
@@ -120,4 +121,4 @@ fun Flappy(clickable: Clickable = Clickable()) {
     GameScreen(clickable = clickable)
 }
 
-const val AutoTickDuration = 50L // 300L Control bird and pipe speed.
+const val AutoTickDuration = 63L //  Control bird and pipe speed.
