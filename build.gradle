@@ -4,10 +4,10 @@ buildscript {
         compose_version = '1.0.0-beta07'
     }
     repositories {
-//        google()
-//        mavenCentral()
-        maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        google()
+        mavenCentral()
+//        maven { url 'https://maven.aliyun.com/repository/google' }
+//        maven { url 'https://maven.aliyun.com/repository/jcenter' }
 //        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
 //        maven { url 'http://download.flutter.io'}
     }
